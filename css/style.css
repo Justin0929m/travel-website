@@ -540,7 +540,7 @@ header{
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 490px) {
     header{
         width: 100vw;
     }
@@ -560,6 +560,10 @@ header{
     .places{
         display: flex;
         flex-direction: column;
+    }
+
+    .places__img{
+        width: 20rem;
     }
 
     .mobile__text{
@@ -593,11 +597,6 @@ header{
     .value__img{
         width: 100%;
     }
-
-
-    /* .left__side__val{
-        width: 50rem;
-    } */
 
     .feature__grid{
         grid-template-columns: repeat(3, 1fr);
